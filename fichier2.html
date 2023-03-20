@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Notre premiere div</div>
+    <p> premier paragraphe</p>
+    <h1>Titre 1</h1>
+    <h2  id="titre1">Titre 2</h2>
+    <h3>Titre3</h3>
+    <h4>Titre 4</h4>
+    <h5>Titre 5</h5>
+    <h6>Titre 6</h6>
+
+    <h2 > elements de liste</h2>
+    <ul>
+        <li>  Boussougou </li>
+        <li>  Kizhogo </li>
+        <li>  Yoland</li>
+
+    </ul>
+    <ol>
+        <li>Lundi</li>
+        <li>Lundi</li>
+        <li>Mardi</li>
+        <li>Mercredi</li>
+        <li>Jeudi</li>
+        <li>Vendredi</li>
+        <li>Samedi</li>
+        <li>Dimanche</li>
+    </ol>
+    <p><b>Ma Famille</b></p>
+    <dl>
+        <dt>Filles</dt>
+            <dd>Ruth</dd>
+            <dd>Stella</dd>
+        <dt>Garçons</dt>
+            <dd>Christ</dd>
+            <dd>Yoland</dd>
+    </dl>
+    <a href="C:\Users\admin\Desktop\Apprentissage_html\page2.html">lien vers 2</a>
+    me contacter a ce numero<a href="tel:062-66-76-33">numero</a>
+ <a href="mailto:yolandboussougoukizhogo@gmail.com">mon mail</a>
+ <img src="C:\Users\admin\Desktop\Apprentissage_html/Capture.PNG" width="100" height="100" alt="Ma photo">
+ <a href="#titre1">mon titre</a>
+
+    <h1>les tableaux</h1>
+    <table border="5" align="center" bgcolor="yellow" cellpadding="3" cellspacing="3" width="300">
+        <tr border="5" align="center" bgcolor="red" valign="top">
+            <td colspan="2">Nom & prenom</td>
+            <td>S</td>
+            <td>P</td>
+            <td>O</td>
+            <td>T</td>
+        </tr>
+        <tr border="5" align="center" bgcolor="blue" valign="bottom"  width="300">
+            <td colspan="2">Boussougou yoland</td>
+            <td>10</td>
+            <td>20</td>
+            <td>12</td>
+            <td>15</td>
+
+        </tr>
+        <tr border="5" align="center" bgcolor="blue" valign="bottom"  width="300">
+            <td colspan="2">Pambou christ</td>
+            <td>7</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr border="5" align="center" bgcolor="blue" valign="bottom"  width="300">
+            <td colspan="2">Boussamba evra</td>
+            <td>7</td>
+            <td>5</td>
+            <td>9</td>
+            <td>10</td>
+
+        </tr>
+        <tr border="5" align="center" bgcolor="blue" valign="bottom"  width="300">
+            <td colspan="2" bgcolor="">total</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+          
+        </tr>
+        <tr border="5" align="center" bgcolor="blue" valign="bottom"  width="300">
+            <td colspan="5" bgcolor="">total</td>
+            <td></td>
+    </table>
+
+    <h1>les formulaires</h1>
+
+    <fieldset style="width: 30%;">
+    <h2>formulaire cnou</h2>
+    <form name="fon.cnou">
+        <label for="nom">nom & prenom</label><br>
+        <input type="text" name="nom" id="nom">
+        <div>
+            <br>
+            <label for="sexe">Sexe</label><br>
+            <br><input type="radio" name="sexe" id="sexe" value="Homme" checked>homme<br>
+            <br><input type="radio" name="sexe" id="sexe" value="Femme">femme<br>
+           
+        </div>
+        <br>
+        <input type="number" name="age" id="age" placeholder="age" min="15" max="50">
+
+        <div>
+            <br>
+            <label for="ticket">tickets</label><br>
+            <select name="Ticket" id="ticket">
+                <option value="tkt1">ticket 1</option>
+                <option value="tkt2">ticket 2</option>
+                <option value="tkt3">ticket 3</option>
+                <option value="tkt4">ticket 4</option>
+                <option value="tkt5">ticket 5</option>
+            </select>
+        </div>
+
+        <div>
+            <br><input type="checkbox" name="accompagnement" value="8">banane<br>
+            <br><input type="checkbox" name="accompagnement" value="8">manioc<br>   
+            <br><input type="checkbox" name="accompagnement" value="8">riz<br>
+        </div>
+        <div>
+            <br><textarea name="commentaire" id="remarque" cols="20" rows="5">commentaire:</textarea>
+        </div>
+        <div>
+            <br><input type="submit" name="payer" value="payer"><br>
+            <br><input type="reset" name="annuler" value="annuler"><br>
+
+        </div>
+        <div>
+            <br><label>moyen de paiement</label><br>
+            <br><input type="checkbox" name="paiement" value="8">cash<br>
+            <br><input type="checkbox" name="paiement" value="8">airtel<br>   
+            <br><input type="checkbox" name="paiement" value="8">carte bancaire<br>         
+
+        </div>
+        <div>
+            <br><input type="submit" name="payer" value="payer"><br>
+            <br><input type="reset" name="annuler" value="annuler"><br>
+        </div>
+        </fieldset>
+
+   
+   
+    </form>
+    <form>
+
+        <h1>Programme 1</h1>
+        <form name="fon.programme">
+    
+            <label for="mail">Email</label><br>
+            <input type="text" name="mail" id="first name" >
+                <div>
+                    <label for="password"></label>Password<br>
+                    <input type="text" name="password" id="password" >
+                </div>
+                <div>
+                    <br><input type="checkbox" name="show password" value="S">cash<br>
+                </div>
+                <div>
+                    <br><input type="submit" name="LOG IN" value="LOG IN"><br>
+
+                </div>
+                <a href="">forgot password?</a>
+             
+        </form>
+    
+
+    <form>
+
+    <h1>welcome</h1>
+    <h2>Let's create your account!</h2>
+    <form name="fon.welcome">
+
+        <label for="first name"></label><br>
+        <input type="text" name="first name" id="first name" placeholder="first name">
+            <div>
+                <label for="last name"></label><br>
+                <input type="text" name="last name" id="last name" placeholder="last name">
+            </div>
+            <div>
+                <label for="mail"></label>
+                <br><input type="text" name="mail" id="mail" placeholder="mail"><br>
+                <br><input type="submit"  value="submit" ><br>
+            </div>
+         
+    </form>
+
+
+</body>
+</html>

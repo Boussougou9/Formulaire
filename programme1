@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>programme 1</title>
+    <link rel="stylesheet" href="programme1.css">
+</head>
+<body>
+
+    <h1>les formulaires</h1>
+    <fieldset style="width: 30%">
+    <form>
+    <center>
+        
+        <h1>Programme 1</h1>
+        <form name="fon.programme">
+    
+            <label for="mail">Email</label><br>
+            <input type="text" name="mail" id="first name" >
+                <div>
+                    <label for="password"></label>Password<br>
+                    <input type="text" name="password" id="password" >
+                </div>
+                <div>
+                    <br><input type="checkbox" name="show password" value="S">cash<br>
+                </div>
+                <div>
+                    <br><input type="submit" name="LOG IN" value="LOG IN"><br>
+
+                </div>
+                <a href="">forgot password?</a>
+     
+    </fieldset>
+    </form>
+    </center>
+</body>
+    
+</html>
